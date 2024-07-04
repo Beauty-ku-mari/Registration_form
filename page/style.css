@@ -45,6 +45,26 @@ width: 100%;
 padding: 8px 0 8px 40px;
 }
 .input-name i{
+position:absolute;
+font-size: 18px;
+color: blue;
+border-right: 1px solid #cccccc ;
+}
+.email{
+padding:8px ;
+}
+.text-name, .name{
+border: 1px solid #cccccc;
+outline: none;
+-webkit-transition: all 0.30s ease-in-out;
+-moz-transition: all 0.30s ease-in-out;
+-ms-transition: all 0.30s ease-in-out;
+transition: all 0.30s ease-in-out;
+}
 
-
+.text-name:hover, .name:hover{
+background-color: #fafafa;
+}
+.text-name:focus, .name:focus{
+border: 1px solid blue;
 }
