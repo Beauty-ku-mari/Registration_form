@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration form</h2>
+    <div class="form-container">
+      <form>
+        <div class="input-name">
+          <i class="fa fa-user lock"></i>
+          <input type="text" placeholder="first name" class="name" id="name" />
+          <span>
+            <i class="fa fa-user lock"></i>
+            <input type="text" placeholder="last name" class="name" id="lname" />
+          </span>
+        </div>
+
+        <div class="input-name">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="E-mail" class="text-name" />
+        </div>
+        <div class="input-name">
+          <i class="fa-solid fa-lock lock"></i>
+          <input type="password" placeholder="password" class="name" />
+        </div>
+        <div class="input-name">
+          <i class="fa-solid fa-lock lock"></i>
+          <input type="password" placeholder="confirm password" class="name" />
+        </div>
+
+        <div class="input-name">
+          <input type="radio" class="radio-button" name="ra" />
+          <label>Male</label>
+          <input type="radio" class="radio-button" name="ra" />
+          <label>Female</label>
+        </div>
+
+        <div class="input-name">
+          <select class="country">
+            <option>Select a country</option>
+            <option>China</option>
+            <option>Nepal</option>
+            <option>India</option>
+            <option>Bhutan</option>
+          </select>
+          <div class="arrow"></div>
+        </div>
+        <div class="input-name">
+        <input type="checkbox" class="check-button">
+        <label>I accept the terms and conditions</label>
+        </div>
+        <div class="input-name">
+        <input type="submit" class="submit" value="Register" >
+        </div>
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
